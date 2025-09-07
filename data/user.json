@@ -1,0 +1,31 @@
+[
+    {
+      "userId": 1,
+      "username": "user 1",
+      "password": "1",
+      "role": "user",
+      "orders": [
+        {
+          "orderId": 1
+        }
+      ]   
+    },
+    {
+      "userId": 2,
+      "username": "store 1",
+      "password": "1",
+      "role": "store",
+      "storeId": 1
+    },
+    {
+      "userId": 3,
+      "username": "rider 1",
+      "password": "1",
+      "role": "rider",
+      "orders": [
+        {
+          "orderId": 1
+        }
+      ]
+    }
+  ]

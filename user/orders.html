@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Food Delivery - Usuario</title>
+    <title>Food Delivery - Mis Pedidos</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -13,20 +13,24 @@
             <a href="cart.html" class="cart-link">
                  Carrito <span id="cart-count" class="cart-count">0</span>
             </a>
-            <a href="orders.html" class="orders-link"> Mis Pedidos</a>
+            <a href="orders.html" class="orders-link active"> Mis Pedidos</a>
             <span id="username"></span>
             <button id="logout-btn">Cerrar Sesión</button>
         </div>
     </nav>
 
     <main class="container">
-        <div class="stores-section">
-            <h2>Restaurantes Disponibles</h2>
-            <div id="stores-list" class="stores-grid"></div>
+        <div class="orders-page">
+            <div class="orders-header">
+                <a href="index.html" class="back-link">← Volver al Inicio</a>
+                <h2>Mis Pedidos</h2>
+            </div>
+
+            <div id="orders-list" class="orders-grid"></div>
         </div>
     </main>
 
     <script src="js/common.js"></script>
-    <script src="js/index.js"></script>
+    <script src="js/orders.js"></script>
 </body>
 </html>

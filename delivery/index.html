@@ -1,17 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>APP 1</title>
+    <title>Food Delivery - Repartidor</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <h1>APP 1</h1>
-    <button id="get-btn">GET</button>
+    <nav class="navbar">
+        <div class="nav-brand">🍜 Food Delivery</div>
+        <div class="nav-user">
+            <span id="rider-name"></span>
+            <button id="logout-btn">Cerrar Sesión</button>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div class="orders-section">
+            <h2>Pedidos Disponibles</h2>
+            <div id="available-orders" class="orders-grid"></div>
+        </div>
+
+        <div class="my-orders-section">
+            <h2>Mis Pedidos Aceptados</h2>
+            <div id="accepted-orders" class="orders-grid"></div>
+        </div>
+    </main>
+
+    <!-- Order Details Modal -->
+    <div id="order-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Detalles del Pedido</h2>
+            <div id="order-details"></div>
+            <button id="accept-order-btn" class="primary-btn">Aceptar Pedido</button>
+        </div>
+    </div>
+
     <script src="index.js"></script>
 </body>
-
 </html>

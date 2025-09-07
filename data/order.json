@@ -1,0 +1,51 @@
+[
+  {
+    "orderId": 2,
+    "userId": 1,
+    "storeId": 1,
+    "products": [
+      {
+        "productId": 2,
+        "quantity": 2
+      }
+    ],
+    "total": 300,
+    "paymentMethod": "cash",
+    "status": "accepted",
+    "riderId": 3
+  },
+  {
+    "orderId": 3,
+    "userId": 1,
+    "storeId": 1,
+    "products": [
+      {
+        "productId": 1,
+        "quantity": 1
+      }
+    ],
+    "total": 100,
+    "paymentMethod": "cash",
+    "status": "pending",
+    "riderId": null
+  },
+  {
+    "orderId": 3,
+    "userId": 1,
+    "storeId": 1,
+    "products": [
+      {
+        "productId": 1,
+        "quantity": 1
+      },
+      {
+        "productId": 2,
+        "quantity": 1
+      }
+    ],
+    "total": 250,
+    "paymentMethod": "cash",
+    "status": "pending",
+    "riderId": null
+  }
+]

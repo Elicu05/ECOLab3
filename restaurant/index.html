@@ -1,19 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>APP 2</title>
+    <title>Food Delivery - Restaurante</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <h1>App 2</h1>
-    <button id="get-btn">GET</button>
+    <nav class="navbar">
+        <div class="nav-brand">🍜 Food Delivery</div>
+        <div class="nav-user">
+            <span id="store-name"></span>
+            <button id="logout-btn">Cerrar Sesión</button>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div class="store-info">
+            <h2>Información del Restaurante</h2>
+            <div class="store-status">
+                <span>Estado:</span>
+                <label class="switch">
+                    <input type="checkbox" id="status-toggle">
+                    <span class="slider"></span>
+                </label>
+                <span id="status-text"></span>
+            </div>
+        </div>
+
+        <div class="products-section">
+            <div class="products-header">
+                <h2>Productos</h2>
+                <button id="add-product-btn" class="primary-btn">Agregar Producto</button>
+            </div>
+            <div id="products-list" class="products-grid"></div>
+        </div>
+    </main>
+
+    <!-- Add Product Modal -->
+    <div id="product-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Agregar Producto</h2>
+            <form id="product-form">
+                <div class="form-group">
+                    <label for="product-name">Nombre</label>
+                    <input type="text" id="product-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="product-description">Descripción</label>
+                    <textarea id="product-description" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="product-price">Precio</label>
+                    <input type="number" id="product-price" min="0" step="0.01" required>
+                </div>
+                <div class="form-group">
+                    <label for="product-image">URL de Imagen</label>
+                    <input type="text" id="product-image">
+                </div>
+                <button type="submit" class="primary-btn">Guardar Producto</button>
+            </form>
+        </div>
+    </div>
 
     <script src="index.js"></script>
-
 </body>
-
 </html>

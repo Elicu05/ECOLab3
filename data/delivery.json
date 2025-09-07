@@ -1,0 +1,10 @@
+[
+    {
+      "riderId": 1,
+      "name": "rider 1",
+      "phone": "9999999999",
+      "vehicle": "motorcycle",
+      "orders": [
+      ]
+    }
+  ]

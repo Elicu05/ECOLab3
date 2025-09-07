@@ -1,0 +1,18 @@
+[
+  {
+    "productId": 1,
+    "name": "Ramen",
+    "price": 100,
+    "description": "Ramen con pollo y verduras",
+    "image": "https://recetasdecocina.elmundo.es/wp-content/uploads/2025/03/ramen-receta.jpg",
+    "storeId": 1
+  },
+  {
+    "productId": 2,
+    "name": "Onigiri",
+    "price": 150,
+    "description": "Rico onigiri",
+    "image": "https://www.cocinista.es/download/bancorecursos/recetas/receta-onigiri-japones.jpg",
+    "storeId": 1
+  }
+]

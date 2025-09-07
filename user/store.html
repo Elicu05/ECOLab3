@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Food Delivery - Usuario</title>
+    <title>Food Delivery - Tienda</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -20,13 +20,19 @@
     </nav>
 
     <main class="container">
-        <div class="stores-section">
-            <h2>Restaurantes Disponibles</h2>
-            <div id="stores-list" class="stores-grid"></div>
+        <div class="store-header">
+            <a href="index.html" class="back-link">← Volver a Restaurantes</a>
+            <h2 id="store-name"></h2>
+            <p id="store-description"></p>
+            <div id="store-status" class="store-status"></div>
+        </div>
+
+        <div class="store-content">
+            <div id="store-products" class="products-grid"></div>
         </div>
     </main>
 
     <script src="js/common.js"></script>
-    <script src="js/index.js"></script>
+    <script src="js/store.js"></script>
 </body>
 </html>

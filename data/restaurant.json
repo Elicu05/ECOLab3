@@ -1,0 +1,14 @@
+[
+  {
+    "storeId": 1,
+    "name": "Ramen y Sushi",
+    "description": "Deliciosos ramen con una variedad de ingredientes",
+    "address": "Address 1",
+    "status": true,
+    "products": [
+      {
+        "productId": 1
+      }
+    ]
+  }
+]
