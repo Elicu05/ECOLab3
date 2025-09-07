@@ -1,0 +1,108 @@
+
+
+:root {
+    --sakura: #E86A33;
+    --rice: #F8EDE3;
+    --wood: #774936;
+    --shadow: rgba(0,0,0,0.08);
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI Rounded", "Nunito", sans-serif;
+    background: var(--rice);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .login-container {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 6px 20px var(--shadow);
+    width: 100%;
+    max-width: 380px;
+    text-align: center;
+    border: 3px solid var(--sakura);
+    
+  }
+
+  .login-container h1 {
+    font-size: 1.8rem;
+    color: var(--wood);
+    margin-bottom: 0.5rem;
+  }
+
+  .login-container p {
+    color: #555;
+    margin-bottom: 2rem;
+    font-size: 0.95rem;
+  }
+
+  .ramen-emoji {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .form-group {
+    margin-bottom: 1.2rem;
+    text-align: left;
+    margin-right: 30px;
+  }
+
+  .form-group label {
+    display: block;
+    font-size: 0.9rem;
+    margin-bottom: 0.3rem;
+    color: var(--wood);
+  }
+
+  .form-group input {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 0.8rem;
+    border: 2px solid #ddd;
+    outline: none;
+    transition: 0.2s ease;
+    font-size: 0.95rem;
+  }
+
+  .form-group input:focus {
+    border-color: var(--sakura);
+    box-shadow: 0 0 6px rgba(232,106,51,0.3);
+  }
+
+  .login-btn {
+    background: var(--sakura);
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    width: 100%;
+    transition: background 0.3s;
+  }
+
+  .login-btn:hover {
+    background: #cf5527;
+  }
+
+  .extra-links {
+    margin-top: 1rem;
+    font-size: 0.85rem;
+  }
+
+  .extra-links a {
+    color: var(--sakura);
+    text-decoration: none;
+    margin: 0 0.5rem;
+  }
+
+  .extra-links a:hover {
+    text-decoration: underline;
+  }
